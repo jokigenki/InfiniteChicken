@@ -9,12 +9,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 61: {fileID: 6100000}
   - 50: {fileID: 5000000}
+  - 60: {fileID: 6000000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: Flat Ground
+  m_Name: Down Shallow 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!50 &5000000
@@ -46,8 +45,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!61 &6100000
-BoxCollider2D:
+--- !u!60 &6000000
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -55,26 +54,13 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: -8, y: 4}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
 --- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6307a10c4fc51492cbdf68b5e5e1c4ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiles:
-  - {fileID: 21300016, guid: 56f929d400d884b658074d3e146de416, type: 3}
-  - {fileID: 21300018, guid: 56f929d400d884b658074d3e146de416, type: 3}
-  - {fileID: 21300020, guid: 56f929d400d884b658074d3e146de416, type: 3}
-  - {fileID: 21300022, guid: 56f929d400d884b658074d3e146de416, type: 3}
-  - {fileID: 21300024, guid: 56f929d400d884b658074d3e146de416, type: 3}
---- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,16 +72,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followingTiles:
-  - {fileID: 100000, guid: 5388268c8a37d4d82bec1e5e8d816edf, type: 2}
-  - {fileID: 100000, guid: d664a8df1ba75483f98c566f5aedbaef, type: 2}
-  - {fileID: 100000, guid: f439c72ec956044d9811627ef9f46de6, type: 2}
-  - {fileID: 100000}
-  - {fileID: 100000, guid: 1d466d746ce7c45a59b7e154f81db5f0, type: 2}
-  - {fileID: 100000, guid: 2b6021e5e3d624539b0a8045675cf344, type: 2}
-  - {fileID: 100000, guid: e0c7a523a00f946c89e5cfbfab5e4589, type: 2}
-  weightings: 01000000010000000100000004000000010000000100000001000000
+  - {fileID: 100000, guid: bd4aa297abf1745879bc28018a36cdae, type: 2}
+  - {fileID: 100000, guid: 0a6863a359634471c8ea7e3674f70552, type: 2}
+  weightings: 0100000001000000
   startY: 16
-  endY: 16
+  endY: 12
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -117,7 +98,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortingLayerID: 1859086223
-  m_Sprite: {fileID: 21300016, guid: 56f929d400d884b658074d3e146de416, type: 3}
+  m_Sprite: {fileID: 21300014, guid: 56f929d400d884b658074d3e146de416, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
