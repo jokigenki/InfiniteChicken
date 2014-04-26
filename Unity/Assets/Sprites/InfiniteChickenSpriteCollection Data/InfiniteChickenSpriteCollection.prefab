@@ -1,0 +1,583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: InfiniteChickenSpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Chicken_run_2
+    boundsData:
+    - {x: 2, y: 1.875, z: 0}
+    - {x: 3.5, y: 3.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .25, y: 0, z: 0}
+    - {x: 3.75, y: 0, z: 0}
+    - {x: .25, y: 3.75, z: 0}
+    - {x: 3.75, y: 3.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .0156328119}
+    - {x: .234367192, y: .0156328119}
+    - {x: .0156328119, y: .249992192}
+    - {x: .234367192, y: .249992192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0961a190a7be87d498757db1f0d03475
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_run_1
+    boundsData:
+    - {x: 2.0625, y: 1.8125, z: 0}
+    - {x: 3.125, y: 3.625, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .5, y: 0, z: 0}
+    - {x: 3.625, y: 0, z: 0}
+    - {x: .5, y: 3.625, z: 0}
+    - {x: 3.625, y: 3.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .554695308}
+    - {x: .210929692, y: .554695308}
+    - {x: .0156328119, y: .781242192}
+    - {x: .210929692, y: .781242192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6f9c9ede56ebb844aa5243eb843efb75
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_run_4
+    boundsData:
+    - {x: 1.9375, y: 1.9375, z: 0}
+    - {x: 2.875, y: 3.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .5, y: 0, z: 0}
+    - {x: 3.375, y: 0, z: 0}
+    - {x: .5, y: 3.875, z: 0}
+    - {x: 3.375, y: 3.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .242195308, y: .281257808}
+    - {x: .421867192, y: .281257808}
+    - {x: .242195308, y: .523429692}
+    - {x: .421867192, y: .523429692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8a13715f924754b4cbead39b462a6802
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_run_0
+    boundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 3, y: 3.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .5, y: .25, z: 0}
+    - {x: 3.5, y: .25, z: 0}
+    - {x: .5, y: 3.75, z: 0}
+    - {x: 3.5, y: 3.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .265632808, y: .0156328119}
+    - {x: .453117192, y: .0156328119}
+    - {x: .265632808, y: .234367192}
+    - {x: .453117192, y: .234367192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: b89ae71b3c5c5b746ab38a474d14d34f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_run_3
+    boundsData:
+    - {x: 1.9375, y: 1.9375, z: 0}
+    - {x: 3.125, y: 3.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .375, y: 0, z: 0}
+    - {x: 3.5, y: 0, z: 0}
+    - {x: .375, y: 3.875, z: 0}
+    - {x: 3.5, y: 3.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .281257808}
+    - {x: .210929692, y: .281257808}
+    - {x: .0156328119, y: .523429692}
+    - {x: .210929692, y: .523429692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: d459b809e07315245a0d9668e51ffdc8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_1
+    boundsData:
+    - {x: 1.75, y: 2, z: 0}
+    - {x: 2.25, y: 4, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .625, y: 0, z: 0}
+    - {x: 2.875, y: 0, z: 0}
+    - {x: .625, y: 4, z: 0}
+    - {x: 2.875, y: 4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .273445308, y: .812507808}
+    - {x: .273445308, y: .953117192}
+    - {x: .523429692, y: .812507808}
+    - {x: .523429692, y: .953117192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0e246898c6f915446834ec74edbb1da9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_5
+    boundsData:
+    - {x: 1.75, y: 1.9375, z: 0}
+    - {x: 2.25, y: 3.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .625, y: 0, z: 0}
+    - {x: 2.875, y: 0, z: 0}
+    - {x: .625, y: 3.875, z: 0}
+    - {x: 2.875, y: 3.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .554695308, y: .726570308}
+    - {x: .695304692, y: .726570308}
+    - {x: .554695308, y: .968742192}
+    - {x: .695304692, y: .968742192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 23ef1f7393b5bd842a06ea2108fe95f2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_3
+    boundsData:
+    - {x: 1.6875, y: 1.8125, z: 0}
+    - {x: 2.625, y: 3.625, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .375, y: 0, z: 0}
+    - {x: 3, y: 0, z: 0}
+    - {x: .375, y: 3.625, z: 0}
+    - {x: 3, y: 3.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .0156328119, y: .812507808}
+    - {x: .0156328119, y: .976554692}
+    - {x: .242179692, y: .812507808}
+    - {x: .242179692, y: .976554692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5c5ed8e5e9e8a804682452a28c6b3012
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_2
+    boundsData:
+    - {x: 1.75, y: 1.875, z: 0}
+    - {x: 2.25, y: 3.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .625, y: 0, z: 0}
+    - {x: 2.875, y: 0, z: 0}
+    - {x: .625, y: 3.75, z: 0}
+    - {x: 2.875, y: 3.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .453132808, y: .265632808}
+    - {x: .593742192, y: .265632808}
+    - {x: .453132808, y: .499992192}
+    - {x: .593742192, y: .499992192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: a34c8cbfb2bd4bb4ebfba47d320f91e7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_0
+    boundsData:
+    - {x: 1.75, y: 2, z: 0}
+    - {x: 2.25, y: 4, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .625, y: 0, z: 0}
+    - {x: 2.875, y: 0, z: 0}
+    - {x: .625, y: 4, z: 0}
+    - {x: 2.875, y: 4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .437507808, y: .554695308}
+    - {x: .437507808, y: .695304692}
+    - {x: .687492192, y: .554695308}
+    - {x: .687492192, y: .695304692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: a3f836e986a221b4b84399424dc21fc4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_4
+    boundsData:
+    - {x: 1.6875, y: 1.8125, z: 0}
+    - {x: 2.625, y: 3.625, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .375, y: 0, z: 0}
+    - {x: 3, y: 0, z: 0}
+    - {x: .375, y: 3.625, z: 0}
+    - {x: 3, y: 3.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .242195308, y: .554695308}
+    - {x: .406242192, y: .554695308}
+    - {x: .242195308, y: .781242192}
+    - {x: .406242192, y: .781242192}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: d9da54eca10ba204a889975e708a24a2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Chicken_idle_6
+    boundsData:
+    - {x: 1.75, y: 2, z: 0}
+    - {x: 2.25, y: 4, z: 0}
+    untrimmedBoundsData:
+    - {x: 2, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .125, y: .125}
+    positions:
+    - {x: .625, y: 0, z: 0}
+    - {x: 2.875, y: 0, z: 0}
+    - {x: .625, y: 4, z: 0}
+    - {x: 2.875, y: 4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .437507808, y: .554695308}
+    - {x: .437507808, y: .695304692}
+    - {x: .687492192, y: .554695308}
+    - {x: .687492192, y: .695304692}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+    materialId: 0
+    sourceTextureGUID: fa31a065d45502f4bb8c4e043127d994
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: bbc81957bb0577846bb14f20f3366091, type: 2}
+  textures:
+  - {fileID: 2800000, guid: c20c7df131b65cd478fb9c5036a3863b, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: e684ff80146532448929c1cdd658da9e
+  spriteCollectionName: InfiniteChickenSpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 4
+  buildKey: 864911373
+  dataGuid: b75774eff0ebab54387d7acb31114fed
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
