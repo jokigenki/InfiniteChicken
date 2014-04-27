@@ -25,10 +25,6 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
-  - assetGUID: 00e5ad61b99f05241954f90aa0291a9e
-    dataGUID: 
-    managed: 0
-    loadable: 0
   - assetGUID: cd635454f22b30e44a64b072f734744b
     dataGUID: 
     managed: 0
@@ -756,6 +752,7 @@ MonoBehaviour:
     - IC Ground Tiles/37
     - IC Ground Tiles/38
     - IC Ground Tiles/39
+    - ICBG-01
     spriteTextureGUIDs:
     - 0961a190a7be87d498757db1f0d03475
     - 6f9c9ede56ebb844aa5243eb843efb75
@@ -809,6 +806,7 @@ MonoBehaviour:
     - 56f929d400d884b658074d3e146de416
     - 56f929d400d884b658074d3e146de416
     - 56f929d400d884b658074d3e146de416
+    - 06655b4ee66a4ef4b816d194bfbc5b98
     spriteTextureTimeStamps:
     - 1398548255.04573
     - 1398548255.04473
@@ -862,6 +860,7 @@ MonoBehaviour:
     - 1397748785.24215
     - 1397748785.24215
     - 1397748785.24215
+    - 1398630152.77995
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
