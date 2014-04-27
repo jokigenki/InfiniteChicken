@@ -753,6 +753,26 @@ MonoBehaviour:
     - IC Ground Tiles/38
     - IC Ground Tiles/39
     - ICBG-01
+    - Small Fox_walkL_0
+    - Small Fox_walkL_4
+    - Small Fox_walkL_2
+    - Small Fox_walkL_1
+    - Small Fox_walkL_3
+    - Fox_idle_05
+    - Fox_idle_03
+    - Fox_idle_06
+    - Fox_idle_04
+    - Fox_idle_07
+    - Fox_idle_13
+    - Fox_idle_08
+    - Fox_idle_12
+    - Fox_idle_02
+    - Fox_idle_01
+    - Fox_idle_09
+    - Fox_idle_00
+    - Fox_idle_11
+    - Fox_idle_10
+    - Fox_idle_14
     spriteTextureGUIDs:
     - 0961a190a7be87d498757db1f0d03475
     - 6f9c9ede56ebb844aa5243eb843efb75
@@ -807,6 +827,26 @@ MonoBehaviour:
     - 56f929d400d884b658074d3e146de416
     - 56f929d400d884b658074d3e146de416
     - 06655b4ee66a4ef4b816d194bfbc5b98
+    - 0ab581d5666de9744957e868c51754f7
+    - 6310a725ba87f06469d9f6afe06618fd
+    - 71a55451a635ea84b92dde280e53e38a
+    - 96eeed3aabb063349b590e836cb66c7c
+    - caf66fec44701604d8947303dda1caec
+    - 0b0855a784c422d42912cd929e13529f
+    - 10450e73847f4864ab27ca0b3de7f5e5
+    - 223bf7997dd77594ba452ce8b9d1946e
+    - 27d683383bc22ac4b97e6ba5401eac3d
+    - 2cffb918cd23eb24f9b682c21fda8af6
+    - 2ddd76fd278246843a2863f535ae0397
+    - 42bd2629d3c3b634481392d259ced852
+    - 52fcae36419587647841f7d2896086f0
+    - 60cd52eee0d132d45901ea166f64ac43
+    - 71d3ba04427d44746a7fa28ab92de189
+    - 73477b3830ce7144c97a56960794b18a
+    - a6d22e0c2b93f304792fd39099b90157
+    - baf2f3fee83a5344b8d7d37d1096f69e
+    - d2b438ba9f89b8548a6d09c3bb0d52d0
+    - ecf71743dbeab2042971c90248557e74
     spriteTextureTimeStamps:
     - 1398548255.04573
     - 1398548255.04473
@@ -861,6 +901,26 @@ MonoBehaviour:
     - 1397748785.24215
     - 1397748785.24215
     - 1398630152.77995
+    - 1398630970.88174
+    - 1398630970.90775
+    - 1398630970.90375
+    - 1398630970.88374
+    - 1398630970.90575
+    - 1398634005.93234
+    - 1398634005.92634
+    - 1398634005.93434
+    - 1398634005.93034
+    - 1398634005.93534
+    - 1398634005.94834
+    - 1398634005.93734
+    - 1398634005.94634
+    - 1398634005.92334
+    - 1398634005.91734
+    - 1398634005.93934
+    - 1398634005.91234
+    - 1398634005.94434
+    - 1398634005.94134
+    - 1398634005.94934
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
